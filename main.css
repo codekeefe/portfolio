@@ -3,8 +3,7 @@
 }
 
 body{
-    background-color: black;
-    color: white;
+
     text-align: center;
     font-family: 'Open Sans';
 }
@@ -20,6 +19,7 @@ i{
     background-repeat: no-repeat;
     background-size: cover;
     background-color: black;
+    color: white;
     height: 100vh;
     letter-spacing: 2px;
 }
