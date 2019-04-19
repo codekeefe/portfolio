@@ -3,7 +3,6 @@
 }
 
 body{
-
     text-align: center;
     font-family: 'Open Sans';
 }
@@ -31,12 +30,26 @@ i{
     align-items: center;
     flex-direction: column;
     height: 100vh;
-
 }
 
-#portfolio{
-    background-color: white;
-    color: black;
+#about-me{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#about-head{
+    margin-bottom: 30px;
+}
+
+#about-content{
+    max-width: 550px;
+    font-size: 1.25em;
+}
+
+#projects{
     height: 100vh;
 }
 
