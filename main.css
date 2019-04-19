@@ -55,10 +55,67 @@ i{
 }
 
 #projects{
-    height: 100vh;
+    padding-bottom: 150px;
     background-color: black;
     color: white;
 }
+
+#projects-grid{
+    display: grid;
+    margin-top: 60px;
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 200px 200px 200px;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    justify-content: center;
+}
+
+#d1{
+    background:url('https://placekitten.com/200/200');
+    background-size: cover;
+}
+
+#d2{
+    background:url('https://placekitten.com/200/200');
+    background-size: cover;
+}
+
+#d3{
+    background:url('https://placekitten.com/200/200');
+    background-size: cover;
+}
+
+#d4{
+    background:url('https://placekitten.com/200/200');
+    background-size: cover;
+}
+
+#d5{
+    background:url('https://placekitten.com/200/200');
+    background-size: cover;
+}
+
+#d6{
+    background:url('https://placekitten.com/200/200');
+    background-size: cover;
+}
+
+#d7{
+    background:url('https://placekitten.com/200/200');
+    background-size: cover;
+}
+
+#d8{
+    background:url('https://placekitten.com/200/200');
+    background-size: cover;
+}
+
+#d9{
+    background:url('https://placekitten.com/200/200');
+    background-size: cover;
+}
+
+
 
 #contact{
     height: 500px;
