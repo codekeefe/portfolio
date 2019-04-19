@@ -40,9 +40,14 @@ i{
     flex-direction: column;
 }
 
-#about-head{
+.head{
     margin-bottom: 30px;
 }
+
+.head-2{
+    padding-top: 120px;
+}
+
 
 #about-content{
     max-width: 550px;
@@ -51,6 +56,12 @@ i{
 
 #projects{
     height: 100vh;
+    background-color: black;
+    color: white;
+}
+
+#contact{
+    height: 500px;
 }
 
 .animated-arrow{
@@ -61,11 +72,6 @@ i{
     animation-iteration-count: infinite;
 }
 
-.luniPanda{
-    margin: 0 auto;
-    position: relative;
-    bottom: -50%;
-}
 
 @keyframes arrow-down{
     0%{
