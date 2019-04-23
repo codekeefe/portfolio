@@ -11,6 +11,11 @@ i{
     font-size: 2em;
 }
 
+label{
+    display: block;
+    text-align: left !important;
+}
+
 #cover{
     background: url('https://images.wallpaperscraft.com/image/san_-_diego_night_california_usa_50536_1920x1080.jpg');
     background-attachment: fixed;
