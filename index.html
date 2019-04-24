@@ -6,6 +6,7 @@
         <title>Keefe Custodio</title>
         <script src = 'https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js' ></script>
         <script src ='main.js'></script>
+        <link rel='stylesheet' type='text/css' href='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css'>
         <link rel="stylesheet" type="text/css" href="main.css">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
         <link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans|Raleway|Roboto" rel="stylesheet">
@@ -81,29 +82,30 @@
 
 
         <div id = 'contact'>
-            <h1 class = 'head-2'>CONTACT</h1>
-            
+            <h1 class = 'head-2'>CONTACT ME</h1>
+            <p id='contact-sub'>Interested in hiring me? Great! Make sure to send me an e-mail and I'll respond to you as soon as possible.</p>
             <form action="https://formspree.io/keefecustodio.edu@gmail.com" method="POST">
                 <label>
-                    E-mail
+                    E-mail:<br />
                     <input type='email' name='email' class='email' />
                 </label>
 
                 <label>
-                    Subject
+                    Subject:<br />
                     <input type='text' name='subject' class='subject' />
                 </label>
 
                 <label>
-                    Message
-                    <textarea class='message' name='message' placeholder='UNDER CONSTRUCTION HOLD UP '></textarea>
+                    Message:<br />
+                    <textarea class='message' name='message'></textarea>
                 </label>
-
+                
+                
                 <div class='status'>
 
                 </div>
-
-                <button type='submit' class='submit'>Send</button>
+                
+                <button type='submit' class='submit btn btn-primary'>Send</button>
 
             </form>
         </div>

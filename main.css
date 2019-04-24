@@ -13,7 +13,20 @@ i{
 
 label{
     display: block;
-    text-align: left !important;
+    margin: 25px 0px;
+}
+
+input{
+    height: 35px;
+}
+
+input, textarea{
+    min-width: 500px;
+
+}
+
+textarea{
+    height: 100px;
 }
 
 #cover{
@@ -123,8 +136,13 @@ label{
 
 
 #contact{
-    height: 600px;
+    height: 650px;
 }
+
+#contact-sub{
+    margin: 25px auto;
+}
+
 
 .animated-arrow{
     position: absolute;
@@ -133,6 +151,9 @@ label{
     animation-name: arrow-down;
     animation-iteration-count: infinite;
 }
+
+
+
 
 
 @keyframes arrow-down{
